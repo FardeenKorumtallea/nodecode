@@ -7,14 +7,14 @@ var app = express();
 
 app.use(express.static('public'));
 console.log('Exact name: ' + process.env.ORA_INSTANCE_NAME);
-//runGetRequest();
+runGetRequest();
 //runDatabaseQuery();
 
 // Does a GET request to ip.jsontest.com
 function runGetRequest() {
     
     //sample URL.
-    var url = "http://ip.jsontest.com/";
+    var url = "http://140.86.15.104:3000/shield/33/45/green/FardeenKorumtallea";
     request(url, function(error, response, body) {
         if(!error) {
             console.log(body);
