@@ -14,7 +14,7 @@ runGetRequest();
 function runGetRequest() {
     
     //sample URL.
-    var url = "http://140.86.15.104:3000/shield/33/45/green/FardeenKorumtallea";
+    var url = "http://140.86.15.104:3000/fighters/5/45/green/FardeenKorumtallea";
     request(url, function(error, response, body) {
         if(!error) {
             console.log(body);
