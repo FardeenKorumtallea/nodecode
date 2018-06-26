@@ -1,7 +1,7 @@
 var express = require('express');
 var request = require('request');
 var mysql = require('mysql');
-var connection = connectToDatabase('myHost', 'myUser', 'myPassword', 'myDatabase');
+var connection = connectToDatabase('140.86.15.104', 'Captain', 'welcome1', 'deathstar');
 
 var app = express();
 
